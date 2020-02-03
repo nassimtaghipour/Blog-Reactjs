@@ -1,68 +1,39 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+	
+Layout
+⦁	The page should be responsive and adapt to the screen size of the user‘s device; you can assume a minimum screen size of 320px and a maximum size of 1440px. The page should not be larger than 1280px in width and be horizontally centered.
+⦁	The page has four sections: a header (yellow), the main content area (green), an area providing context (red) and a footer (purple).
+⦁	On small devices (width <640px), the areas should be vertically stacked
+⦁	On larger screens, the context area should be next to the main area on the right side of the page. The main area should always be twice as large as the context-providing area.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+Screen width is smaller than 640px
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ 
+Screen width is larger than or equal to 640px
+                           
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Navigation
+⦁	The header section should contain a horizontal navigation with 6 top-level items
+⦁	Each top-level navigation item should have a list of sub-items which are displayed when hovering the top-level item (see image below).
+⦁	On small screens, there won‘t be enough space to fit 6 items next to each other. Find a solution that works for that scenario.
+⦁	Make sure that your solution works on devices with touch screens, no matter their screen size.
+ 
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Posts
+⦁	The website consists of two types of pages: an overview page and detail pages for fake blog posts
+⦁	The data should come from http://jsonplaceholder.typicode.com/
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Overview
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The overview page should list the titles of all posts. Each post title should link to a detail page for that post. The data can be found here: http://jsonplaceholder.typicode.com/posts/
+Detail page
 
-### `npm run eject`
+The detail page should display the post title and post content in the main area. The data for a single post can be found here: http://jsonplaceholder.typicode.com/posts/<postId>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The context area should display the name and website of the post author. The data for that can be fetched based on the userId of the post from here: http://jsonplaceholder.typicode.com/users/<userId>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
