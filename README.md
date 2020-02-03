@@ -1,17 +1,12 @@
 	
 Layout
 
-⦁	The page should be responsive and adapt to the screen size of the user‘s device; you can assume a minimum screen size of 320px and a maximum size of 1440px. The page should not be larger than 1280px in width and be horizontally centered.
+⦁	The page is responsive and adapt to the screen size of the user‘s device .The page should not be larger than 1280px in width and be horizontally centered.
 ⦁	The page has four sections: a header (yellow), the main content area (green), an area providing context (red) and a footer (purple).
 ⦁	On small devices (width <640px), the areas should be vertically stacked
 ⦁	On larger screens, the context area should be next to the main area on the right side of the page. The main area should always be twice as large as the context-providing area.
 
 
-
-Screen width is smaller than 640px
-
- 
-Screen width is larger than or equal to 640px
                            
 
 
