@@ -1,4 +1,4 @@
-Blog web app developed by React.js and Bootdtrap4	
+Blog web app developed by React.js and Bootstrap4	
 
 Layout
 
