@@ -36,3 +36,9 @@ The detail page should display the post title and post content in the main area.
 The context area should display the name and website of the post author. The data for that can be fetched based on the userId of the post from here: http://jsonplaceholder.typicode.com/users/<userId>
 
 
+Project setup:
+
+npm install
+
+npm start
+
