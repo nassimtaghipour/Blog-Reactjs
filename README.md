@@ -5,9 +5,9 @@ Layout
 ⦁	The page is responsive and adapt to the screen size of the user‘s device.The page should not be larger than 1280px in width and be horizontally centered.
 
 ⦁	The page has four sections: a header (yellow), the main content area (green), an area providing context (red) and a footer (purple).
-⦁	On small devices (width <640px), the areas should be vertically stacked
+⦁	On small devices,the areas should be vertically stacked
 
-⦁	On larger screens, the context area should be next to the main area on the right side of the page. The main area should always be twice as large as the context-providing area.
+⦁	On larger screens, the context area should be next to the main area on the right side of the page. 
                          
 
 
@@ -15,9 +15,11 @@ Layout
 Navigation
 
 ⦁	The header section should contain a horizontal navigation with 6 top-level items
+
 ⦁	Each top-level navigation item should have a list of sub-items which are displayed when hovering the top-level item (see image below).
-⦁	On small screens, there won‘t be enough space to fit 6 items next to each other. Find a solution that works for that scenario.
-⦁	Make sure that your solution works on devices with touch screens, no matter their screen size.
+
+⦁	On small screens, there won‘t be enough space to fit 6 items next to each other so used sandwitch menu as an solution.
+
  
 
 
