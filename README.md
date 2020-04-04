@@ -9,8 +9,13 @@ Layout
 ⦁	On small devices,the areas should be vertically stacked
 
 ⦁	On larger screens, the context area should be next to the main area on the right side of the page. 
-                         
 
+
+Screen width is larger than or equal to 640px | Screen width is smaller than 640px
+------------ | -------------
+ <img src="https://github.com/nassimtaghipour/Blog-Reactjs/blob/master/public/img-desktop.png" width="200" height="200">|<img src="https://github.com/nassimtaghipour/Blog-Reactjs/blob/master/public/img-mobile.png" width="200" height="200">
+                      
+ 
 
 
 Navigation
@@ -21,7 +26,7 @@ Navigation
 
 ⦁	On small screens, there won‘t be enough space to fit 6 items next to each other so used sandwitch menu as an solution.
 
- 
+ <img src="https://github.com/nassimtaghipour/Blog-Reactjs/blob/master/public/navigation.png" width="200" height="200">
 
 
 Posts
